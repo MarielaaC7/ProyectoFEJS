@@ -1,0 +1,99 @@
+<!DOCTYPE html>  <!--Tipo de documento, en este caso html-->
+<html lang="en"> <!--en que idioma esta la pagina-->
+<head> <!--Es el encabezado de la pagina, son cosas que no se ven en el cuerpo-->
+    <meta charset="UTF-8"> <!--es un tipo de lenguaje tambien, como por ejemplo las ñ y cosas asi-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--el tamaño de escala que se ve en la pagina-->
+    <title>| Green Choices |</title> <!--titulo de la pagina, lo que se ve en la pestaña-->
+
+<link rel="stylesheet" href="../css/Style.css"> <!--Esto es el vinculo con la pagina css que le da estilo a esta pagina-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ultra&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="Icon" href="../Imagenes/Greenchoiceslogo.png" type="image/jpg">
+</head>
+<body> <!--esto es lo que se ve en la pantalla de la pagina-->
+      <header class="header" id="inicio">
+        <div class="titulo-container">
+            <div class="logo">
+                <a href="./index.html"><img src="../Imagenes/LogoSinFondo.png" alt="Logo de GreenChoices" width="180" height="180">
+                </a>
+            </div>
+            <h1>Green Choices</h1>
+        </div>
+      <nav class="container">
+        <ul>
+        <li><a href="./index.html">Inicio</a></li><!-- Items de la lista-->
+        <li><a href="./Tienda.html">Tienda</a></li>
+        <li><a href="https://www.instagram.com/p/CTxv0JgLLcj/?img_index=1">Cuidados</a></li> <!--La a SOLA modifica al texto en un enlace al que se puede acceder-->
+        <li><a href="http://www.instagram.com/p/CRUmhFhNHe2/" target="_blank" rel="noopener noreferrer">Kit gift</a></li> <!--La a blank modifica al texto abriendo el enlace en otra pestaña -se usa cuando no tiene que ver con la pagina-->
+        <li><a href="https://www.instagram.com/p/CTNn1w7NqPL/?img_index=1" target="_blank" rel="noopener noreferrer">Tips ECO</a></li>
+        <li><a href="./Contacto.html">Contacto</a></li>
+        <li><a href="../paginas/Busqueda.html" target="_blank" rel="noopener noreferrer">Busqueda</a> </li>
+        <li><a href="../paginas/Compras.html" target="_blank" rel="noopener noreferrer">Carro de compras</a> </li>
+
+
+        </ul>
+      </nav>
+      </header>
+
+    <h1>Gracias por contactarte con Green Choices</h1>
+
+    <h2>Dejanos tu consulta</h2>
+    <form action="https://formspree.io/f/xjkwynnr" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="phone">Telefono:</label>
+        <input type="number" name="phone" id="phone">
+        <br>
+        <label for="tema">Motivo de contacto:</label>
+        <select name="tema" id="tema">
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="agradecimiento">Agradecimiento</option>
+            <option value="reclamo">Reclamo</option>
+        </select>
+        <br>
+        <br>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea>
+       
+        <button type="submit">Enviar</button>
+    
+    
+    </form>
+    <br><br><br><br><br><br><br>
+
+    
+    
+ <footer class="footer-container"><!-- esto es el pie de pagina-->
+        <div class="logo">
+                <a href="./index.html"><img src="../Imagenes/LogoSinFondo.png" alt="Logo de GreenChoices" width="180" height="180">
+                </a>
+        </div>
+
+        <div class="redes-sociales">
+            <a href="http://www.instagram.com/greenchoices__/" target="_blank" rel="noopener noreferrer"> <img src="https://i.pinimg.com/564x/33/5d/ea/335deaf81e75eb2c11eea7313ce1f736.jpg" alt="Logo de instagram" width="2%"></a>
+            <a href="http://www.facebook.com/profile.php?id=100067547209165" target="_blank" rel="noopener noreferrer"> <img src="../Imagenes/Facebook.jpg.jpeg" alt="Logo de Facebook" width="2%"></a>
+        </div>
+
+
+
+
+
+    </footer> 
+
+</body>
+</html>
